@@ -10,3 +10,11 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 '''
+
+def string_to_number(s):
+    return int(s)
+
+print(string_to_number("123456"))
+print(string_to_number("605"))
+print(string_to_number("1405"))
+print(string_to_number("-7"))
